@@ -10,7 +10,7 @@ import Cta from "./sections/cta/cta"
 
 function App() {
   return (
-    <main className="overflow-x-hidden max-w-7xl mx-auto px-4 h-full flex flex-col gap-20 items-center ">
+    <main className="max-w-7xl mx-auto px-4 h-full flex flex-col gap-20 items-center ">
       <Nav />
       <Hero />
       <Companies />
