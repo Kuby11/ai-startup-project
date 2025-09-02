@@ -1,0 +1,18 @@
+.grid {
+	&:has(.card:hover) > .card:not(:hover) {
+		scale: 95.5%;
+		& img {
+			opacity: 75%;
+		}
+	}
+}
+
+.card {
+	&:hover {
+		scale: 102.5%;
+		box-shadow: 0 0 10px 0 var(--color-accent),
+			0 0 60px 0 var(--color-accent),
+			0 0 500px 0 var(--color-accent),
+			inset 0 0 20px 0 var(--color-accent);
+	}
+}
