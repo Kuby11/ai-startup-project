@@ -8,7 +8,7 @@ export default function Clients() {
 			<main className="relative w-full flex justify-center not-md:pb-40">
 				<div className="relative w-fit">
 					<picture>
-						<source className="sm:w-full" srcSet={`${import.meta.env}/images/Testimonial-mobile.png`} width={317} media="(max-width: 768px)"/>
+						<source className="sm:w-full" srcSet={`${import.meta.env.BASE_URL}/images/Testimonial-mobile.png`} width={317} media="(max-width: 768px)"/>
 						<img 
 							src={`${import.meta.env.BASE_URL}/images/Testimonial.png`} alt="testimonial"
 							width={990} height={401}
