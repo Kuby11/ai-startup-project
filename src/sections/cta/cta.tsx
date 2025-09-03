@@ -35,7 +35,7 @@ export default function Cta() {
 			</fieldset>
 			<p className="sm:text-lg text-white/50">No credit card required·7-days free trial</p>
 			<img 
-				src="/images/pattern-large.png" alt="" 
+				src={`${import.meta.env.BASE_URL}/images/pattern-large.png`} alt="" 
 				className="pointer-events-none h-full absolute -z-20 inset-0" 
 			/>
 		</section>

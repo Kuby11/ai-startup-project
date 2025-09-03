@@ -17,7 +17,7 @@ export default function Hero() {
 			</header>
 			<article className="p-2 shadow-xl shadow-accent bg-black/100 rounded-lg">
 				<img 
-					src="/images/App Wide.png" 
+					src={`${import.meta.env.BASE_URL}/images/App Wide.png`} 
 					alt="app image"
 					width='1098'
 					height='794'				
@@ -25,7 +25,7 @@ export default function Hero() {
 				/>
 			</article>
 			<img 
-				src="/images/bg-ring.svg" 
+				src={`${import.meta.env.BASE_URL}/images/bg-ring.svg`} 
 				aria-hidden 
 				className="z-4 absolute bottom-50"	
 			/>

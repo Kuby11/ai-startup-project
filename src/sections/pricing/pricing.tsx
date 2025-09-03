@@ -51,7 +51,7 @@ export default function Pricing() {
 							: ''}
 							transition absolute opacity-0 w-full h-full inset-0 -z-10`)}
 						>
-							<img className=' h-full opacity-50' src="/images/pattern.png" alt="" aria-hidden />
+							<img className='h-full opacity-50' src={`${import.meta.env.BASE_URL}/images/pattern.png`} alt="" aria-hidden />
 							<div className="z-5 absolute inset-0 w-full h-full bg-linear-to-b from-black to-accent/30"></div>
 						</div>
 						<header className="border-b border-white/15 pb-4">

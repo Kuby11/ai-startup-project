@@ -58,7 +58,7 @@ export default function Features() {
 				{ gridData.map((item) => (	
 					<li className="flex flex-col items-start gap-2.5" key={item.title}>
 						<div className="flex items-center gap-1">
-							<img src={`/icons/${item.icon}.svg`} className="w-4 h-4" alt="" aria-hidden />
+							<img src={`${import.meta.env.BASE_URL}/icons/${item.icon}.svg`} className="w-4 h-4" alt="" aria-hidden />
 							<h5 className="text-lg">{item.title}</h5>
 						</div>
 						<p className="text-white/50">{item.text}</p>
