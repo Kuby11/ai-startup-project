@@ -27,8 +27,7 @@ const lists: {
 
 export default function Footer() {
 	return (
-		<footer className="relative w-full py-12 sm:h-140 h-fit flex not-sm:flex-col sm:items-center gap-10 justify-between">
-			<div className="absolute w-screen h-0.25 bg-white/15 top-0 left-1/2 -translate-x-1/2"></div>
+		<footer className="relative vw-border after:top-0 w-full py-12 sm:h-140 h-fit flex not-sm:flex-col sm:items-center gap-10 justify-between">
 			<section className="sm:w-fit w-full h-full flex sm:flex-col justify-between">
 				<div className="flex items-center gap-2">
 					<Logo />

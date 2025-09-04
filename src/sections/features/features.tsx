@@ -52,7 +52,7 @@ const gridData: {
 
 export default function Features() {
 	return (
-		<section className="relative w-full h-fit flex flex-col gap-10 items-start py-19">
+		<section className="relative  w-full h-fit flex flex-col gap-10 items-start py-19">
 			<h2 className="h2 sm:max-w-90 w-full not-sm:text-center">Elevate your SEO efforts.</h2>
 			<ul className="w-full grid grid-cols-[repeat(auto-fit,_minmax(320px,_auto))] gap-y-10 gap-x-15">
 				{ gridData.map((item) => (	
@@ -65,7 +65,7 @@ export default function Features() {
 					</li>
 				)) }
 			</ul>
-			<div className="-z-1 absolute top-0 left-1/2 -translate-x-1/2 border-y border-white/15 bg-linear-to-br from-secondary/50 to-transparent w-screen h-full"></div>
+			<div className="-z-1 absolute top-0 left-1/2 -translate-x-1/2 border-y border-white/15 bg-linear-to-br from-secondary/50 to-transparent w-[calc(100vw_-_10px)] h-full"></div>
 		</section>
 	)
 }

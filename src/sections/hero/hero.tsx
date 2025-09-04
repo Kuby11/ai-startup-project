@@ -31,7 +31,7 @@ export default function Hero() {
 			/>
 			<div className="z-4 bottom-50 absolute md:w-142 md:h-142 sm:100 w-80 h-80 bg-accent/20 rounded-full blur-3xl"></div>
 			<div className="z-4 lg:bottom-70 bottom-40 absolute md:w-190 md:h-190 sm:w-120 sm:h-120 w-80 h-80 bg-accent/20 rounded-full blur-3xl"></div>
-			<div className="z-5 -bottom-40 absolute bg-gradient-to-t from-black from-[60%] to-transparent to-[100%] w-screen h-70"></div>
+			<div className="z-5 -bottom-40 absolute bg-gradient-to-t from-black from-[60%] to-transparent to-[100%] w-[calc(100vw_-_10px)] h-70"></div>
 		</section>
 	)
 }

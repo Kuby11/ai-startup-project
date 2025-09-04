@@ -87,6 +87,10 @@ body,html {
 	}
 }
 
+.vw-border {
+	@apply after:absolute after:w-[calc(100vw_-_10px)] after:h-0.25 after:bg-white/15 after:left-1/2 after:-translate-x-1/2;
+}
+
 .h2 {
 	@apply sm:text-6xl text-4xl font-medium 
 }
