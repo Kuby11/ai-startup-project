@@ -1,6 +1,6 @@
 .grid {
 	&:has(.card:hover) > .card:not(:hover) {
-		scale: 95.5%;
+		scale: 97.5%;
 		& img {
 			opacity: 75%;
 		}

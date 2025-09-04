@@ -43,7 +43,7 @@ export default function CompaniesGrid() {
 				{imagePaths.map((item) => (
 					<article key={item.name} className={`${cls.card} ease-out not-sm:px-4 overflow-hidden relative z-5 bg-black/50 cursor-pointer h-24.5 w-full transition flex items-center justify-center hover:border-accent border border-white/15 rounded-xl`}>
 						<a href=''>
-							<img className='w-full relative z-10 pointer-events-none' src={import.meta.env.BASE_URL + item.path} alt={item.name} />
+							<img className='transition-all w-full relative z-10 pointer-events-none' src={import.meta.env.BASE_URL + item.path} alt={item.name} />
 						</a>
 					</article>
 				))}
